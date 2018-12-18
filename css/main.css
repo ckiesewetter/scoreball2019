@@ -2323,8 +2323,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 11rem;
-  padding-bottom: 11rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -2392,8 +2392,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
   .s-about {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
   .process__vline-left {
@@ -2484,8 +2484,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   color: #555555;
   position: relative;
 }
