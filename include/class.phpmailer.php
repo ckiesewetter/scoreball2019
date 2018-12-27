@@ -1215,15 +1215,14 @@ class PHPMailer {
       $this->SetError($this->Lang('file_open') . $path);
       return '';
     }
-
-    // @set_magic_quotes_runtime(false);    Turned off magic time 
+    @set_magic_quotes_runtime(false);
     ini_set('magic_quotes_runtime', 0);
     $magic_quotes = get_magic_quotes_runtime();
-#    set_magic_quotes_runtime(0);
+    set_magic_quotes_runtime(0);
     $file_buffer = fread($fd, filesize($path));
     $file_buffer = $this->EncodeString($file_buffer, $encoding);
     fclose($fd);
-#    set_magic_quotes_runtime($magic_quotes);
+    set_magic_quotes_runtime($magic_quotes);
 
     return $file_buffer;
   }

@@ -1,4 +1,5 @@
 <?PHP
+
 /*
     Contact Form from HTML Form Guide
 
@@ -137,11 +138,13 @@ class FGContactForm
 
         return $ret;
     }
+
     function RedirectToURL($url)
     {
         header("Location: $url");
         exit;
     }
+
     function GetErrorMessage()
     {
         return $this->error_message;
@@ -173,7 +176,7 @@ class FGContactForm
 
         $this->mailer->CharSet = 'utf-8';
         
-        $this->mailer->Subject = "Custom Ball 2018 form submission from $this->name";
+        $this->mailer->Subject = "Custom Uniform 2018 submission from $this->name";
 
         $this->mailer->From = $this->GetFromAddress();
 
@@ -302,7 +305,7 @@ class FGContactForm
         $extra_info = $this->ExtraInfoToMail();
         $footer = $this->GetHTMLFooterPart();
 
-        $message = $header."Submission from 'Custom Ball 2018' form:<p>$formsubmission</p><hr/>$extra_info".$footer;
+        $message = $header."Submission from 'Custom Uniform 2018' form:<p>$formsubmission</p><hr/>$extra_info".$footer;
 
         return $message;
     }
@@ -552,4 +555,5 @@ class FGContactForm
     }
 
 }
+
 ?>

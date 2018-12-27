@@ -1704,7 +1704,7 @@ input::-moz-focus-inner {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.4;
+  opacity: 0.00001;
   background-color: #000000;
 }
 
@@ -1721,19 +1721,19 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100%;
   vertical-align: middle;
-  padding-bottom: 15.6rem;
+  padding-bottom: 10.6rem;
   overflow: hidden;
   position: relative;
 }
 .home-content h1 {
-  font-family: "domine-bold", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 9rem;
   line-height: 1.1;
-  margin-top: 0;
+  margin-top: 40rem;
   color: #ffffff;
 }
 .home-content h1 + p {
-  font-family: "metropolis-light", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 3.8rem;
   line-height: 1.421;
   color: rgba(255, 255, 255, 0.8);
@@ -1750,7 +1750,7 @@ input::-moz-focus-inner {
 ;
   position: absolute;
   left: 6px;
-  top: 2.7rem;
+  top: 10.7rem;
 }
 
 .home-content__main {
@@ -2323,8 +2323,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -2392,8 +2392,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
   .s-about {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
   }
 
   .process__vline-left {
@@ -2495,7 +2495,7 @@ html.no-csstransitions .home-content__main {
  * ## services list
  * ------------------------------------------------------------------- */
 .services-list {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 .services-list .service-item {
   margin-bottom: 1.5rem;
@@ -2516,8 +2516,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
   .s-services {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .services-list [class*="col-"]:nth-child(2n + 1) {
@@ -2566,7 +2566,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-works {
   background: #ffffff;
-  padding: 18rem 0 24rem;
+  padding: 3rem 0 7rem;
   position: relative;
 }
 
@@ -2575,7 +2575,7 @@ html.no-csstransitions .home-content__main {
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
 .masonry-wrap {
-  margin-top: 6rem;
+  margin-top: 5rem;
   max-width: none;
   width: 1380px;
 }
@@ -3088,7 +3088,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
   padding-top: 10rem;
-  padding-bottom: 5.2rem;
+  padding-bottom: 10.2rem;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.3);
   position: relative;
@@ -3110,7 +3110,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-email {
   display: inline-block;
-  font-family: "metropolis-light", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 5.4rem;
   line-height: 1.222;
   color: #ffffff;
@@ -3130,14 +3130,14 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-number {
-  font-family: "metropolis-light", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 3rem;
   line-height: 1.7;
   display: block;
 }
 
 .contact-address {
-  font-family: "metropolis-regular", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 2.8rem;
   line-height: 1.607;
   margin-top: 2.4rem;
@@ -3239,7 +3239,7 @@ html.no-csstransitions .home-content__main {
  * ## copyright
  * ------------------------------------------------------------------- */
 .cl-copyright {
-  margin-top: 2.1rem;
+  margin-top: 1.1rem;
 }
 
 .cl-copyright span {
@@ -3523,5 +3523,8 @@ html.no-csstransitions .home-content__main {
     display: none;
   }
 }
-
+#map {
+       height: 400px;  /* The height is 400 pixels */
+       width: 100%;  /* The width is the width of the web page */
+      }
 /*# sourceMappingURL=main.css.map */
